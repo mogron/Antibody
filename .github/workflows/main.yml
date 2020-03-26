@@ -19,4 +19,4 @@ jobs:
         BASE_BRANCH: master
         BRANCH: gh-pages
         FOLDER: antibody/dist/antibody
-        BUILD_SCRIPT: cd antibody && npm install && npm run build -- --prod && cd ..
+        BUILD_SCRIPT: cd antibody && npm install && npm run build -- --prod --base-href /Antibody/ && cd ..
